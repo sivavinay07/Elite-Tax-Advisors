@@ -1,38 +1,52 @@
 <?php include_once 'includes/header.php'; ?>
 
-<div class="container" style="padding: 4rem 0;">
-    <div style="text-align: center; max-width: 800px; margin: 0 auto 4rem;">
-        <h1 style="font-size: 3rem; color: var(--secondary); margin-bottom: 1rem;">Our Practice Areas</h1>
-        <p style="font-size: 1.1rem; color: var(--text-secondary);">We offer tailored solutions designed to protect your wealth, ensure full compliance, and maximize your business's financial efficiency.</p>
-    </div>
-
-    <!-- Reusing original classes where possible, or adding inline just for this page so we don't bloat CSS -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-        
-        <div class="form-card" style="margin: 0;">
-            <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-file-invoice-dollar"></i></div>
-            <h3 style="font-size: 1.5rem; color: var(--secondary); margin-bottom: 1rem;">Tax Filing & Return</h3>
-            <p style="color: var(--text-secondary);">Accurate and timely tax filing for individuals and corporations. We navigate the latest tax laws to ensure full compliance while maximizing your legal deductions and credits.</p>
+<div class="section fade-in">
+    <div class="container">
+        <div class="section-head">
+            <div class="feature-badge" style="margin-bottom: 1.5rem; background: hsla(243, 75%, 59%, 0.1); color: var(--primary);">
+                <i class="fas fa-layer-group"></i> Our Domains
+            </div>
+            <h2>Tailored Financial Solutions</h2>
+            <p>We provide deep expertise across various sectors to ensure your financial success and regulatory compliance.</p>
         </div>
 
-        <div class="form-card" style="margin: 0;">
-            <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-search-dollar"></i></div>
-            <h3 style="font-size: 1.5rem; color: var(--secondary); margin-bottom: 1rem;">Audit & Assurance</h3>
-            <p style="color: var(--text-secondary);">Independent and objective evaluations of your financial statements. Our auditing services foster transparency and build trust with your stakeholders and investors.</p>
-        </div>
+        <div class="card-grid">
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                <h3>Tax Filing & Return</h3>
+                <p>Strategic tax planning and filing for corporations and individuals. We maximize your deductions while ensuring 100% compliance.</p>
+            </div>
 
-        <div class="form-card" style="margin: 0;">
-            <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-calculator"></i></div>
-            <h3 style="font-size: 1.5rem; color: var(--secondary); margin-bottom: 1rem;">Accounting & Bookkeeping</h3>
-            <p style="color: var(--text-secondary);">Meticulous record keeping leaving no stone unturned. Focus firmly on growing your business while we handle your ledgers, payroll, and monthly reports.</p>
-        </div>
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                <h3>Audit & Assurance</h3>
+                <p>Meticulous internal and external audits to build stakeholder trust and ensure high-level transparency in your operations.</p>
+            </div>
 
-        <div class="form-card" style="margin: 0;">
-            <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-chart-line"></i></div>
-            <h3 style="font-size: 1.5rem; color: var(--secondary); margin-bottom: 1rem;">Financial Advisory</h3>
-            <p style="color: var(--text-secondary);">Strategic wealth management and corporate financial planning. We help you map out investments, mergers, forecasting, and sustainable pathways to growth.</p>
-        </div>
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-calculator"></i></div>
+                <h3>Bookkeeping</h3>
+                <p>Automated and manual bookkeeping services that keep your ledgers clean and your business running like clockwork.</p>
+            </div>
 
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-gem"></i></div>
+                <h3>Wealth Management</h3>
+                <p>Expert investment advisory and long-term financial planning to protect and grow your legacy for generations.</p>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-industry"></i></div>
+                <h3>Corporate Advisory</h3>
+                <p>Full-spectrum advisory for mergers, acquisitions, and restructuring to keep your business agile and profitable.</p>
+            </div>
+
+            <div class="glass-card">
+                <div class="card-icon"><i class="fas fa-user-shield"></i></div>
+                <h3>Risk Compliance</h3>
+                <p>Proactive risk assessment and regulatory compliance strategies to navigate the ever-changing financial landscape.</p>
+            </div>
+        </div>
     </div>
 </div>
 
